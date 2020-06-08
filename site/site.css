@@ -1,0 +1,46 @@
+div {
+    /* background-color: #00FFFF; */
+}
+* {
+    box-sizing: border-box;
+}
+p {
+    width: 48%;
+    /* border: 2px solid black; */
+    margin: 3px;
+    padding: 5px;
+    text-align: justify;
+    border: 2px solid black;
+}
+#p1 {
+    /* background-color: brown; */
+    float:left;
+}
+#p2 {
+    /* background-color: brown; */
+    float: right;
+}
+#p3 {
+    /* background-color: brown; */
+    clear: both;
+}
+#p4 {
+    /* background-color: brown; */
+    clear: both;
+}
+
+/* Large devices*/
+@media (min-width:1200px) {
+    p {
+        text-align: left;
+    }
+
+}
+
+/*Medium devices*/
+@media (min-width:992px) and (max-width:1199px) {
+    p {
+        width: 30%;
+        text-align: right;
+    }
+}
